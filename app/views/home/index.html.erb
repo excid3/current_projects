@@ -1,0 +1,17 @@
+
+<h1>Current Projects<span><%= link_to 'Back to excid3.com', "http://excid3.com" %></h1>
+<%- if @repos%>
+<ul>
+  <%- @repos.reverse_each do |repo| %>
+  <li>
+    <%= link_to repo[:name], repo[:url] %>
+		<%- if repo[:pushed_at] > 4.months.ago %>
+			<span class="green">ONGOING</span>
+		<% else %>
+			<span class="red">ON HOLD</span>
+		<% end %>
+	  </a>
+	</li>
+  <% end %>
+</ul>
+<% end %>

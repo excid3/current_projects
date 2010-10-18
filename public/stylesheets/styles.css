@@ -1,0 +1,46 @@
+body {
+    background: #222 url(http://sprinkles3.splendidbacon.com/images/bg.jpg) repeat;
+    color: white;
+    font:13px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0;
+    text-shadow: #111 0px 2px 1px;
+    width: 760px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    border-bottom: 1px solid #111;
+    font-size: 29px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 40px;
+    padding: 0;
+}
+
+li {
+    -webkit-box-shadow: black 0px 3px 5px inset;
+    background: #181819;
+    border-bottom: 1px solid #333436;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+span {
+    float: right;
+}
+
+.red {
+    color: red;
+}
+.green {
+    color: #87EA23;
+}
