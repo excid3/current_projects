@@ -26,10 +26,14 @@ ul {
 }
 
 li {
+    box-shadow: black 0px 3px 5px inset;
+    -moz-box-shadow: black 0px 3px 5px inset;
     -webkit-box-shadow: black 0px 3px 5px inset;
     background: #181819;
     border-bottom: 1px solid #333436;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-box-shadow: 5px;
     padding: 10px;
     margin: 5px;
 }
