@@ -1,4 +1,4 @@
-<h1><%= params[:username] %>'s Current Projects<span><%= link_to 'Back to excid3.com', "http://excid3.com" %></h1>
+<h1><%= params[:username] %>'s Projects<span><%= link_to 'Back to excid3.com', "http://excid3.com" %></h1>
 <%- if @repos%>
 <ul>
   <%- @repos.reverse_each do |repo| %>
