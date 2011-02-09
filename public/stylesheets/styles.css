@@ -1,5 +1,5 @@
 body {
-    background: #222 url(http://sprinkles3.splendidbacon.com/images/bg.jpg) repeat;
+    background: #222 url(/images/bg.jpg) repeat;
     color: white;
     font:13px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
     font-weight: bold;
@@ -13,6 +13,7 @@ a {
     color: white;
     text-decoration: none;
 }
+a:hover { text-decoration: underline; }
 
 h1 {
     border-bottom: 1px solid #111;
@@ -38,13 +39,11 @@ li {
     margin: 5px;
 }
 
-span {
-    float: right;
+.right { float: right; }
+.desc {
+    color: #444;
+    margin-left: 5px;
+    font-weight: normal;
 }
-
-.red {
-    color: red;
-}
-.green {
-    color: #87EA23;
-}
+.red { color: red; }
+.green { color: #87EA23; }
