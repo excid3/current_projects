@@ -1,3 +1,5 @@
+require 'net/http'
+
 class HomeController < ApplicationController
   def index
     # I'll be the default if no username was passed
