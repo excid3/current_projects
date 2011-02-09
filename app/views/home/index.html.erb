@@ -1,4 +1,4 @@
-<h1><%= params[:username] %>'s Projects<span><%= link_to 'Back to excid3.com', "http://excid3.com", :class => "right" %></h1>
+<h1><%= link_to "#{params[:username]}'s Projects", "http://github.com/#{params[:username]}" %><span><%= link_to 'Back to excid3.com', "http://excid3.com", :class => "right" %></h1>
 <%- if @repos%>
 <ul>
   <%- @repos.reverse_each do |repo| %>
@@ -15,3 +15,7 @@
   <% end %>
 </ul>
 <% end %>
+
+<div id="footer">
+  Loving created by <%= link_to "Chris Oliver", "http://excid3.com" %>
+</div>

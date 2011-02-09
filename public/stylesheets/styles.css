@@ -47,3 +47,9 @@ li {
 }
 .red { color: red; }
 .green { color: #87EA23; }
+
+#footer {
+    color: #888;
+    margin-bottom: 125px;
+    text-align: center;
+}
